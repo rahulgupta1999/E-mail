@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<link rel="stylesheet" href="/static/bootstrap.min.css"/>
+<script src="/static/jquery.min.js"></script>
+<script src="/static/bootstrap.min.js"></script>
+</head>
+<body class=bg-success>
+<div class="spinner-grow text-primary" role="status">
+<span class="sr-only" >Loading...</span></div>
+<div class="spinner-grow text-secondary" role="status">
+<span class="sr-only" >Loading...</span></div>
+<div class="spinner-grow text-danger" role="status">
+<span class="sr-only" >Loading...</span></div>
+<br>
+<div class="container" style="align:center; ">
+<div class="panel-group" style="text-align:center;">
+<div class="panel panel-info">
+<div class="panel-heading">Compose Mail</div>
+<form method=post action="composeSave" class="form-horizontal" >
+{% csrf_token %}
+
+<br>
+<center>
+<div class="col-sm-4 input-group" ><span class="input-group-addon" >Email &nbsp;&nbsp;</span>
+<input type="text" id="toeid" name="toeid" placeholder="To Email" class="form-control" required />
+</div>
+
+<div class="col-sm-4 input-group" ><span class="input-group-addon">Subject</span>
+<input type="text" id="subject" name="subject" placeholder="Subject" class="form-control" required />
+</div>
+
+
+<div class="col-sm-4 input-group" ><span class="input-group-addon">&nbsp;Text&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<textarea id="msg" name="msg" placeholder="Message" rows="15" class="form-control" required ></textarea>
+</div>
+<br>
+<div style="text-align:center;">
+
+<button type="submit" class="btn btn-info">Submit</button>
+</div>
+</center>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
