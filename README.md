@@ -1,3 +1,62 @@
-# E-mail
-This is a django app in which user can register, login ,send mail, inbox,outbox,change password, sign out .
-I use Bootstrap,Html5,Css,Jquery,python django framework work on MVC architecture .
+# Email
+#### It is local email portal where user by registering can login,compose mail,see send-box,see inbox and can change . 
+- ***Language use - Python***
+- ***Framework - Django***
+- ***Architecture - MVC***
+- ***Database - Sqlite***
+- ***For Frontend - Bootstrap,Html5,CSS***
+- ***For Client Side scripting - Jquery*** 
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(23).png)
+
+- ***Register Page***
+
+
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(35).png)
+
+
+- ***login Page***
+
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(24).png)
+
+
+
+- ***Home***
+
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(25).png)
+
+- ***Compose Mail***
+
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(29).png)
+
+
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(30).png)
+
+
+
+- ***Send Box***
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(31).png)
+
+
+- ***Change password***
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(32).png)
+
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(33).png)
+
+
+
+- ***Inbox***
+
+
+![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(34).png)
+
+
+
