@@ -1,4 +1,4 @@
-# Email
+# Email Portal
 #### It is local email portal where user by registering can login,compose mail,see send-box,see inbox and can change password . 
 - ***Language use - Python***
 - ***Framework - Django***
