@@ -7,9 +7,8 @@
 - ***For Frontend - Bootstrap,Html5,CSS***
 - ***For Client Side scripting - Jquery*** 
 
-![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(23).png)
 
-- ***Register Page***
+- ***Home Page***
 
 
 
@@ -23,7 +22,7 @@
 
 
 
-- ***Home***
+- ***User Home***
 
 
 ![Home Page](https://github.com/rahulgupta1999/Email/blob/master/output/Screenshot%20(25).png)
